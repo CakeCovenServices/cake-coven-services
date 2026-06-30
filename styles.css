@@ -140,6 +140,9 @@ h2 {
     color: var(--muted);
     max-width: 650px;
 }
+/* ==========================
+   Request quote form fields
+========================== */
 .button-row {
     display: flex;
     gap: 14px;
@@ -187,5 +190,5 @@ form label {
 
 form input,
 form textarea {
-    width: 100%;
+    width: 50%;
 }
