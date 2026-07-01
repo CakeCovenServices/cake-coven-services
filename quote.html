@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#05040a" />
+    <link rel="icon" href="assets/logo/hexley-logo-dark.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Request a Quote | Cake Coven Services</title>
+    <meta name="description" content="Request a quote from Cake Coven Services for cleaning, organization, laundry, personal shopping, party cleanup, seasonal decorating, or household assistance." />
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Cake Coven Services home">
+            <img src="assets/logo/hexley-logo-dark.png" alt="Cake Coven Services logo" />
+            <span>Cake Coven Services</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+        <nav class="nav" aria-label="Main navigation">
+            <a href="services.html">Services</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="about.html">About Ashley</a>
+            <a href="rewards.html">Hexley's Rewards</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="faq.html">FAQ</a>
+            <a class="nav-cta" href="quote.html">Request a Quote</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="eyebrow">Start Your Reset</p>
+                <h1>Request a Quote</h1>
+                <p class="lead">
+                    The more detailed you are, the better I can prepare. Tell me about your home, pets, allergies, and goals so your visit is tailored to your needs.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-tight">
+            <div class="container">
+                <div class="tip-image">
+                    <img src="assets/hexley-tips/contact-tip.png" alt="Hexley's contact tip: The more detailed you are, the better I can prepare." />
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container form-card">
+                <form action="mailto:ashleythurston@cakecovenservices.com" method="post" enctype="text/plain">
+                    <div class="form-grid">
+                        <label>
+                            Name
+                            <input name="name" required />
+                        </label>
+
+                        <label>
+                            Phone
+                            <input name="phone" />
+                        </label>
+
+                        <label>
+                            Email
+                            <input type="email" name="email" required />
+                        </label>
+
+                        <label>
+                            City / ZIP
+                            <input name="city_zip" placeholder="Tinley Park, 60477" />
+                        </label>
+                    </div>
+
+                    <div class="form-grid">
+                        <label>
+                            Approx. Square Footage
+                            <input name="square_footage" placeholder="Example: 2,000 sq ft" />
+                        </label>
+
+                        <label>
+                            Bedrooms / Bathrooms
+                            <input name="bed_bath" placeholder="Example: 3 bed / 2 bath" />
+                        </label>
+                    </div>
+
+                    <label>
+                        Services Needed
+                        <select name="service">
+                            <option>Deep Cleaning</option>
+                            <option>Standard Cleaning</option>
+                            <option>Move-In / Move-Out Cleaning</option>
+                            <option>Organization</option>
+                            <option>Laundry</option>
+                            <option>Personal Shopping</option>
+                            <option>Seasonal Decorating</option>
+                            <option>Party Prep / Party Cleanup</option>
+                            <option>Gift Wrapping</option>
+                            <option>Other / Not Sure Yet</option>
+                        </select>
+                    </label>
+
+                    <fieldset class="check-group">
+                        <label><input type="checkbox" name="pets" value="Dogs" /> Dogs</label>
+                        <label><input type="checkbox" name="pets" value="Cats" /> Cats</label>
+                        <label><input type="checkbox" name="pets" value="Birds" /> Birds</label>
+                        <label><input type="checkbox" name="pets" value="Other pets" /> Other pets</label>
+                        <label><input type="checkbox" name="supplies" value="Client supplies" /> I will provide supplies and equipment ($20 off)</label>
+                        <label><input type="checkbox" name="stairs" value="Stairs" /> There are stairs</label>
+                    </fieldset>
+
+                    <label>
+                        Allergies, asthma, fragrance sensitivities, or products to avoid
+                        <textarea name="sensitivities" placeholder="Tell me about scents, chemicals, surfaces, pets, or products to avoid."></textarea>
+                    </label>
+
+                    <label>
+                        Tell me about your home and goals
+                        <textarea name="message" placeholder="What kind of chaos are we tackling? What rooms matter most? Any special requests?"></textarea>
+                    </label>
+
+                    <button class="button primary" type="submit">Send Request</button>
+
+                    <p class="form-note">
+                        This temporary form opens your email app. MaidZen can be connected later for scheduling and quote requests.
+                    </p>
+                </form>
+
+                <div class="contact-links">
+                    <a href="mailto:ashleythurston@cakecovenservices.com">Email: ashleythurston@cakecovenservices.com</a>
+                    <a href="tel:+16309776179">Phone: 630-977-6179</a>
+                    <span>Available Monday through Friday, 9:00 AM to 4:00 PM</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <img src="assets/logo/hexley-logo-dark.png" alt="Cake Coven Services logo" />
+        <p>© <span id="year"></span> Cake Coven Services. Until next time, keep your space magical.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
